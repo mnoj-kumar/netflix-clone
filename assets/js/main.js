@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $("#faq-ans-1").hide();
+    $("#faq-ans-2").hide();
+    $("#faq-ans-3").hide();
+    $("#faq-ans-4").hide();
+    $("#fa-close-1").hide();
+    $("#fa-close-2").hide();
+    $("#fa-close-3").hide();
+    $("#fa-close-4").hide();
+
+    $("#faq-qus-1").click(function(){
+      $("#faq-ans-1").toggle();
+      $("#fa-close-1").toggle();
+      $("#fa-plus-1").toggle();
+      
+    });
+    $("#faq-qus-2").click(function(){
+      $("#faq-ans-2").toggle();
+      $("#fa-close-2").toggle();
+      $("#fa-plus-2").toggle();
+    });
+    $("#faq-qus-3").click(function(){
+      $("#faq-ans-3").toggle();
+      $("#fa-close-3").toggle();
+      $("#fa-plus-3").toggle();
+    });
+    $("#faq-qus-4").click(function(){
+      $("#faq-ans-4").toggle();
+      $("#fa-close-4").toggle();
+      $("#fa-plus-4").toggle();
+    });
+});
